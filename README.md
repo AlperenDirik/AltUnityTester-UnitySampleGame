@@ -1,7 +1,7 @@
 # AltUnityTester-UnitySampleGame
 Test automation in Unity with AltUnityTester
 
-### First Task is 
+## First Task is 
 
         [Test]
         public void TestStartButtonLoadsMainScene()
@@ -11,5 +11,4 @@ Test automation in Unity with AltUnityTester
             altDriver.FindObject(By.TEXT, "StartButton").Click();
             altDriver.WaitForCurrentSceneToBe("Main");
         }`
-
-## When the start button that comes after the splash screen is clicked, I automate it to direct us to the game scene.
+### When the start button that comes after the splash screen is clicked, I automate it to direct us to the game scene.
