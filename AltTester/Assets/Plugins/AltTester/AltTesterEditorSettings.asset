@@ -73,16 +73,45 @@ MonoBehaviour:
     _testDuration: 0
     path: 
     _testSelectedCount: 0
-  - _selected: 1
+  - _selected: 0
     _testName: C:/Users/Alpeen/OneDrive/Belgeler/Projects/My project (1)/AltUnityTester-UnitySampleGame/AltTester/Library/ScriptAssemblies/AltTester.AltTesterUnitySDK.Editor.dll
     _testAssembly: AltTester.AltTesterUnitySDK.Editor
-    _status: 0
+    _status: -1
     _isSuite: 1
     _type: NUnit.Framework.Internal.TestAssembly
     _parentName: 
-    _testCaseCount: 0
-    _foldOut: 0
+    _testCaseCount: 1
+    _foldOut: 1
     _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: 
+    _testSelectedCount: 1
+  - _selected: 0
+    _testName: NewAltTest
+    _testAssembly: AltTester.AltTesterUnitySDK.Editor
+    _status: -1
+    _isSuite: 1
+    _type: NUnit.Framework.Internal.TestFixture
+    _parentName: C:/Users/Alpeen/OneDrive/Belgeler/Projects/My project (1)/AltUnityTester-UnitySampleGame/AltTester/Library/ScriptAssemblies/AltTester.AltTesterUnitySDK.Editor.dll
+    _testCaseCount: 1
+    _foldOut: 1
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: 
+    _testSelectedCount: 1
+  - _selected: 1
+    _testName: NewAltTest.TestStartButtonLoadsMainScene
+    _testAssembly: AltTester.AltTesterUnitySDK.Editor
+    _status: -1
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: NewAltTest
+    _testCaseCount: 1
+    _foldOut: 1
+    _testResultMessage: 'OneTimeSetUp: System.FormatException : Input string was
+      not in a correct format.'
     _testStackTrace: 
     _testDuration: 0
     path: 
@@ -97,7 +126,7 @@ MonoBehaviour:
   - _toBeBuilt: 1
     _path: Assets/Scenes/Shop.unity
     _buildIndex: 2
-  platform: 0
+  platform: 1
   StandaloneTarget: 5
   RanInEditor: 0
   ScenePathDisplayed: 0
